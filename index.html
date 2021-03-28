@@ -106,14 +106,18 @@
             max-width: 100%;
             width: auto;
             height: auto;
-            min-height: 1px;
         }
         
         img {
             height: auto;
             width: auto;
             max-width: 100%;
-            flex-shrink: 0;
+        }
+        
+        .no-dist-img {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
         }
         
         .img-list {
@@ -168,7 +172,7 @@
 
     <div class="section">
         <div class="section-main">
-            <img id="main-img" src="./assets/section1_image1.png" alt="section1-image">
+            <img class="no-dist-img" id="main-img" src="./assets/section1_image1.png" alt="section1-image">
         </div>
         <div class="section-title fontdg">
             <h1>HI FRIENDS, MY WEBSITE IS CURRENTLY BEING WERKED ON!</h1>
@@ -193,28 +197,28 @@
         <div class="section-main grid">
             <div class="column">
                 <div class="row">
-                    <img src="./assets/section3_1.png" alt="image1">
+                    <img class="no-dist-img" src="./assets/section3_1.png" alt="image1">
                 </div>
                 <div class="row">
-                    <img src="./assets/section3_4.png" alt="image2">
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="row">
-                    <img src="./assets/section3_2.png" alt="image3">
-                </div>
-                <div class="row">
-                    <img src="./assets/section3_5.png" alt="image4">
+                    <img class="no-dist-img" src="./assets/section3_4.png" alt="image2">
                 </div>
             </div>
 
             <div class="column">
                 <div class="row">
-                    <img src="./assets/section3_3.png" alt="image5">
+                    <img class="no-dist-img" src="./assets/section3_2.png" alt="image3">
                 </div>
                 <div class="row">
-                    <img src="./assets/section3_6.png" alt="image6">
+                    <img class="no-dist-img" src="./assets/section3_5.png" alt="image4">
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="row">
+                    <img class="no-dist-img" src="./assets/section3_3.png" alt="image5">
+                </div>
+                <div class="row">
+                    <img class="no-dist-img" src="./assets/section3_6.png" alt="image6">
                 </div>
             </div>
 
