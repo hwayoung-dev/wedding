@@ -78,6 +78,7 @@
         .row {
             display: flex;
             justify-content: center;
+            min-height: 1px;
         }
         
         .button-list {
@@ -105,12 +106,14 @@
             max-width: 100%;
             width: auto;
             height: auto;
+            min-height: 1px;
         }
         
         img {
             height: auto;
             width: auto;
             max-width: 100%;
+            flex-shrink: 0;
         }
         
         .img-list {
@@ -165,9 +168,7 @@
 
     <div class="section">
         <div class="section-main">
-            <img id="main-img" src="./assets/section1_image1.png" sizes="(max-width: 320px) 280px,
-            (max-width: 480px) 440px,
-            800px" alt="section1-image">
+            <img id="main-img" src="./assets/section1_image1.png" alt="section1-image">
         </div>
         <div class="section-title fontdg">
             <h1>HI FRIENDS, MY WEBSITE IS CURRENTLY BEING WERKED ON!</h1>
